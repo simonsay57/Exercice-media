@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+}
+.logo {
+
+    height: 50px;
+}
+h1,
+footer {
+    text-align: center;
+}
+header img {
+    height: 200px;
+
+}
+
+article img {
+    height: 50px;
+    float: left;
+
+}
+.menu {
+    border: 1px solid red;
+    border-radius: 9px;
+    text-align: center;
+}
+article {
+    background-color: grey;
+    padding: 1%;
+    border-radius: 9px;
+    margin-bottom: 3%;
+}
+@media screen and (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 700px) {
+    .burger {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+}
